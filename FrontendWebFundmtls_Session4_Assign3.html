@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS3 Animation Using Animation</title>
+	<style type="text/css">
+		div{
+
+			width: 100px;
+			height: 100px;
+			background-color: #2EB348;
+			text-align: center;
+			vertical-align: middle;
+			line-height: 100px;
+			color: white;
+			margin-left: 50%
+
+		}
+
+		div:hover{
+
+			animation-duration: 5s;
+    		animation-name: css3_circle;	
+		}
+
+		@keyframes css3_circle{
+
+			from{border-radius: 1px;}
+			to{border-radius: 60px;}
+
+			from {background-color: #2EB348;}
+			to{background-color:#FF7827;}
+		}
+	</style>
+</head>
+<body>
+	<div>Box</div>
+</body>
+</html>
